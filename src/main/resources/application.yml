@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /statement
+
+output:
+  path: ${user.dir}\\output
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
